@@ -1,0 +1,434 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+
+html,
+body {
+  padding: 0px !important;
+  margin: 0px !important;
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+  -webkit-font-smoothing: antialiased;
+  /*font-family: 'Open Sans', sans-serif !important;*/
+}
+
+#home-btn {
+  position: absolute;
+  top: 50%;
+  left: 44%;
+}
+
+.jumbotron {
+  font-size: 15px;
+  /* height:100vh; */
+  height:100vh;
+  background: url(../img/Shanghai.jpg) no-repeat fixed center;
+  background-size: 100% 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.jinner {
+  
+  /*background: rgba(255,255,255, 0.6);*/
+  background: -webkit-linear-gradient(rgba(255,255,255, 0.8), rgba(255,255,255, 0)); /* For Safari 5.1 to 6.0 */
+  /*background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+  /*background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+  /*background: linear-gradient(red, blue); /* Standard syntax */
+}
+
+.jumbotron-inner {
+  position: absolute;
+  padding-top: 50px;
+  width: 100%;
+  color:#333;
+  text-align: center;
+}
+
+.jumbotron-inner h1 {
+  font-size:65px;
+  color:#FFF;
+}
+
+.jumbotron-inner h3 {
+  color:#B31313;
+  text-align:center;
+}
+
+.fa, hr.star-primary:after {
+    font-family: FontAwesome !important;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.col-sm-4, .col-xs-6 {
+  margin-top: 30px;
+}
+
+.lead {
+  font-size: 19px;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  background-color: #f5f5f5;
+  margin-top:50px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+#myCarousel  .item {
+  height: 600px;
+  background-color:#bbb;
+}
+#myCarousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 600px;
+}
+
+
+#wrap > .container {
+  padding: 60px 15px 0;
+}
+.container .credit {
+  margin: 20px 0;
+}
+
+.profile-img {
+  display: inline;
+  text-align: center;
+  margin: 30px 50px !important;*/
+}
+
+.img-responsive {
+    border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.panel {
+  border-radius: 0px;
+  border: 1px solid #ccc !important;
+  /*box-shadow: 0px 0px 10px 0px #777;*/
+  border-width:0;
+  min-height: 300px;
+}
+
+.panel-body p {
+  text-align: left;
+  font-size: 14px;
+}
+
+.panel h3 {
+  margin-top: 0px;
+  text-align: center;
+  color: #b31313;
+}
+
+.panel h4 {
+  font-weight: 300;
+  text-align: center;
+  color: #777;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.profile-frame {
+   min-height: 500px;
+}
+
+h1 {
+  color: #b31313;
+}
+
+hr.star-light,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-light:after,
+hr.star-primary:after {
+    content: "\f0eb";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.star-light {
+    border-color: #b31313;
+}
+
+hr.star-light:after {
+    color: #b31313;
+    background-color: #fff;
+}
+
+hr.star-primary {
+    border-color: #2c3e50;
+}
+
+hr.star-primary:after {
+    color: #2c3e50;
+    background-color: #fff;
+}
+
+
+
+#footer {
+  background-color:#414141;
+}
+
+#footer a {
+  color:#efefef;
+}
+
+header {
+  background: #333;
+  color:#555;
+}
+
+header .dropdown-menu {
+  top:74px;
+  background: #ffcc33;
+  border-width:0;
+}
+
+h1 {
+  font-size:50px;
+}
+
+a {
+  color: #b31313;
+}
+
+a:hover {
+  color: #6e0c0c;
+}
+
+#nav {
+  width: 100%;
+  position:static;
+  top:-32px;
+}
+
+#nav.affix {
+   position: fixed;
+   top: 0;
+   z-index:10;
+   -webkit-transition: all .6s ease-in-out;
+}
+
+#footer > .container {
+  
+}
+
+@media (min-width: 767px) {
+  .navbar-nav.nav-justified > li{
+      float:none;
+  }
+}
+  
+.navbar-nav {
+  margin: 1px 1px; 
+}  
+  
+/* customize nav style */
+.navbar-custom {
+    background-color: #2e2e2e;
+	font-weight:700;
+    text-transform:uppercase;
+    border-width:0;
+}
+.navbar-custom  .navbar-nav>li>a {
+	color: #ddd;
+}
+.navbar-custom  .dropdown-menu li>a:hover {
+	color: #eee;
+}
+.navbar-custom  .navbar-nav li>a:hover, .navbar-nav li .open, .navbar-custom .navbar-nav .active a  {
+	background-color: #000;
+}
+.navbar-custom .navbar-nav>.dropdown>a .caret {
+	border-top-color: #999;
+	border-bottom-color: #999;
+}
+
+.navbar-collapse.in { /*3.0.2 bug workaround*/
+    overflow-y: visible;
+}
+
+.navbar-toggle {
+	outline:0;
+}
+
+.divider {
+	height:50px;
+}
+
+.panel{
+  
+}
+
+@media (max-width: 768px) {
+	header {
+	
+	}
+}
+
+#map-canvas {
+  	width: 100%; 
+  	height: 300px;
+	margin: 0;
+	padding: 15px;
+}
+
+.scroll-top {
+   position:fixed;
+   bottom:0;
+   right:1%;
+   z-index:100;
+   background: #333;
+   font-size:24px;
+   border-top-left-radius:3px;
+   border-top-right-radius:3px;
+}
+
+.scroll-top a:hover {
+  background: #b31313 !important;
+  border-radius: 3px;
+}
+
+.scroll-top a:link,.scroll-top a:visited {
+  color:#fff;
+} 
+ 
+
+section {
+  color: #ffffff;
+  min-height: 400px;
+  height: auto !important;
+  height: 100%;
+  padding-top:100px;
+}
+
+.bg-1 {
+	background: url('http://www.bootply.com/assets/example/bg_suburb.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.bg-2 {
+	background: url('http://www.bootply.com/assets/example/bg_suburb.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.bg-3 {
+	background: url('http://www.bootply.com/assets/example/bg_blueplane.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.bg-4 {
+	padding-top:30px;
+    background-color:#e6e6e6;
+}
+
+iframe{
+    display:block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+.previous{
+    min-width:700px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+
+
+  .heading-1 {
+    margin-top: 15px;
+    font-size: 30px;
+  }
+  .heading-2 {
+    color: #9c1111;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .events, .heading {
+    margin-bottom: 3px;
+    padding: 20px 40px;
+    text-align: center;
+    text-align: left;
+    background: #f5f5f5;
+  }
+  .events:hover {
+    background: #444;
+    color: #fff;
+  }
+  .events:hover .heading-2 {
+    color: #f5f5f5;
+  }
+  .icon {
+    max-width: 300px;
+  }
+  .btn {
+    border-radius: 0px;
+  }
