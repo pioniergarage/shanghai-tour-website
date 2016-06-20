@@ -18,13 +18,42 @@ body {
 
 .jumbotron {
   font-size: 15px;
-  /* height:100vh; */
   height:100vh;
+  /*height:auto;*/
+  /*max-width:100%;*/
   background: url(../img/Shanghai.jpg) no-repeat fixed center;
-  background-size: 100% 100%;
+  background-size: 533px 339px;  
   padding: 0px;
   margin: 0px;
 }
+
+
+@media (min-width: 533px) , (min-height: 339px){
+  .jumbotron{
+  background-size: 747px 474px;  
+  }
+}
+
+@media (min-width: 747px) , (min-height: 474px){
+  .jumbotron{
+  background-size: 1245px 791px;  
+  }
+}
+
+@media (min-width: 1245px) , (min-height: 791px){
+  .jumbotron{
+  background-size: 1868px 1186px;  
+  }
+}
+
+@media (min-width: 1868px) , (min-height: 1186px){
+  .jumbotron{
+  background-size: 3736px 2373px;  
+  }
+}
+
+
+
 
 .jinner {
   
@@ -44,9 +73,22 @@ body {
 }
 
 .jumbotron-inner h1 {
-  font-size:65px;
+  font-size:65px;  
   color:#FFF;
 }
+
+@media (max-width: 300px){
+.jumbotron-inner h1 {
+  font-size:20px;  
+  }
+}
+
+@media (max-width: 300px){
+.jumbotron-inner h3 {
+  font-size:15px;  
+  }
+}
+
 
 .jumbotron-inner h3 {
   color:#B31313;
@@ -71,9 +113,9 @@ body {
 
 /* Wrapper for page content to push down footer */
 #wrap {
-  min-height: 100%;
+  width: 100%;
   height: auto !important;
-  height: 100%;
+  /*height: 100%;*/
   /* Negative indent footer by its height */
   margin: 0 auto -60px;
   /* Pad bottom by footer height */
@@ -137,7 +179,7 @@ body {
 }
 
 .img-responsive {
-    border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
   border-top-left-radius: 0px;
 }
 
@@ -173,9 +215,6 @@ body {
    min-height: 500px;
 }
 
-h1 {
-  color: #b31313;
-}
 
 hr.star-light,
 hr.star-primary {
@@ -239,7 +278,21 @@ header .dropdown-menu {
 
 h1 {
   font-size:50px;
+    color: #b31313;
 }
+
+
+h2 {
+  font-size:50px;
+    color: #b31313;
+}
+
+@media (max-width: 300px){
+h2 {
+  font-size:20px;
+}
+}
+
 
 a {
   color: #b31313;
@@ -279,7 +332,7 @@ a:hover {
 /* customize nav style */
 .navbar-custom {
     background-color: #2e2e2e;
-	font-weight:700;
+    font-weight:700;
     text-transform:uppercase;
     border-width:0;
 }
@@ -383,17 +436,37 @@ section {
 	padding-top:30px;
     background-color:#e6e6e6;
 }
-
-iframe{
+@media(min-width: 100px){
+iframe {
+    width:93px;
+    height:53px;
     display:block;
     margin-left: auto;
     margin-right: auto
-}
+}}
+
+@media(min-width: 300px){
+iframe {
+    width:280px;
+    height:157px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto
+}}
+
+@media(min-width: 768px){
+iframe {
+    width:560px;
+    height:315px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto
+}}
 
 
 .previous{
-    min-width:700px;
-    max-width: 800px;
+    width:100%;
+    height:auto;
     margin-left: auto;
     margin-right: auto
 }
