@@ -343,7 +343,7 @@ a:hover {
 	color: #eee;
 }
 .navbar-custom  .navbar-nav li>a:hover, .navbar-nav li .open, .navbar-custom .navbar-nav .active a  {
-	background-color: #000;
+	background-color: #333;
 }
 .navbar-custom .navbar-nav>.dropdown>a .caret {
 	border-top-color: #999;
@@ -359,7 +359,7 @@ a:hover {
 }
 
 .divider {
-	height:50px;
+  height:50px;
 }
 
 .panel{
