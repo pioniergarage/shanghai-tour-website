@@ -9,3 +9,10 @@ The Pioneers are heading to China! After inspiring tours to the Silicon Valley, 
 Be sure to check out the amazing tour video we made on our Silicon Valley Tour 2013: 
 
 [![SILICON VALLEY TOUR 2013](http://img.youtube.com/vi/t-WDfZML1FY/0.jpg)](http://www.youtube.com/watch?v=t-WDfZML1FY)
+
+## How to set up PG domains that point to GitHub
+1) Crate Github Pages branch named "gh-pages"
+
+2) In the repo settings, enter PG subdomain, e.g. shanghai.pioniergarage.de
+
+3) In Strato's admin panel, create a new subdomain for pioniergarage.de and point it via CNAME to pioniergarage.github.io
