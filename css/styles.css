@@ -24,7 +24,7 @@ body {
   background: url(../img/shanghai-startup-tour-pioniergarage.jpg) no-repeat fixed center;
   background-size: 533px 339px;  
   padding: 0px;
-  margin: 0px;
+n  margin: 0px;
 }
 
 
@@ -343,7 +343,7 @@ a:hover {
 	color: #eee;
 }
 .navbar-custom  .navbar-nav li>a:hover, .navbar-nav li .open, .navbar-custom .navbar-nav .active a  {
-	background-color: #333;
+	background-color: #000;
 }
 .navbar-custom .navbar-nav>.dropdown>a .caret {
 	border-top-color: #999;
