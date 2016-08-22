@@ -25,7 +25,7 @@ $('#nav .navbar-nav li>a').click(function(){
 
 $('.jumbotron-inner>h1>a').click(function(){
   var link = $(this).attr('href');
-  var posi = 20 +  $(link).offset().top;
+  var posi = 40 +  $(link).offset().top;
   $('body,html').animate({scrollTop:posi},700);
 });
 
